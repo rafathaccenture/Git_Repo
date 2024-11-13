@@ -1,0 +1,15 @@
+pipline {
+   agent any 
+   stages {
+       stage('Build') {
+       steps {
+            echo "jenkins pipeline job"
+             
+            echo "%date% : %time%"
+            }
+
+        }
+    
+    }
+
+}
